@@ -1,0 +1,26 @@
+/* root */
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+/* pages */
+.pagesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pagesListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  margin-bottom: 30px;
+}
